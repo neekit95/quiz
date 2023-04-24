@@ -4,8 +4,12 @@
     src: url(/fonts/onest/WOFF/OnestMedium1602-hint.woff);
 }
 @font-face {
-    font-family: "Onest-light";
+    font-family: "Onest-regular";
     src: url(/fonts/onest/WOFF/OnestRegular1602-hint.woff);
+}
+@font-face {
+    font-family: "Onest-light";
+    src: url(/fonts/onest/WOFF/OnestLight1602-hint.woff);
 }
 
 * {
@@ -230,7 +234,7 @@ body {
             width: 100%;
 
 
-            border: 0.11px solid red;
+            // border: 0.11px solid red;
 
 
             .block2-wrap__constant {
@@ -308,12 +312,61 @@ body {
                     // top: 0;
                     // left: 0;
                     display: flex;
-                    border:1px solid green;
+                    // border:1px solid green;
                     // background-color: green;
                     width: 100%;
                     height: 70%;
                     margin-top: 44px;
                     margin-bottom: 56px;
+
+                .firstStep {
+                    display: grid;
+                    grid-template-columns: repeat(2, 252px);
+                    grid-template-rows: repeat(3, 56px);
+                    gap: 8px;
+                    width: 100%;
+                    height: 100%;
+                    // background-color:red;
+                    label {
+                        // display: inline-block;
+                        display: flex;
+                        padding-left: 16px;
+                        flex-direction: row-reverse;
+
+                        justify-content: space-between;
+                        align-items: center;
+                        cursor:pointer;
+                        // background-color:red;
+                        
+                        border: 1px solid #383838;
+
+                        width: 236px;
+                        height: 56px;
+                        border-radius: 16px;
+                        // margin-left: 16px;
+                        font-family: 'Onest-regular';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #383838;
+
+                        p {
+                            margin-left: 16px;
+                            font-family: 'Onest-regular';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #383838;
+                        }
+                        input {
+                            margin-right: 16px;
+                            border: 1px solid #adb5bd;
+                            border-radius: 0.25em;
+                        }
+                    }
+                }
 
                 }
             }
