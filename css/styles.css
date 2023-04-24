@@ -50,12 +50,22 @@ body {
 }
 
 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 32px;
   margin-bottom: 32px;
   width: 1152px;
   height: 392px;
 }
 .wrapper .wrapper__block1 {
+  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,8 +154,6 @@ body {
   left: 213.57px;
   top: 246.66px;
   z-index: 1;
-  /* NEW/Light green */
-  /* NEW/Black */
   background: transparent;
   border: 1px solid #383838;
   border-radius: 34px;
@@ -178,10 +186,36 @@ body {
   -webkit-transform: skew(8deg);
           transform: skew(8deg);
 }
-.wrapper .wrapper__block1 .wrapper__images .bottomImg hr {
+.wrapper .wrapper__block1 .wrapper__images .bottomImg .under {
   margin-left: 53px;
   width: 302.49px;
   height: 1px;
   background-color: #383838;
   z-index: 1;
+}
+.wrapper .wrapper__block1 .wrapper__images .stick {
+  position: absolute;
+  bottom: 77.48px;
+  left: 42px;
+  background-color: #383838;
+  width: 35px;
+  height: 1.2px;
+  -webkit-transform: rotate(125deg);
+          transform: rotate(125deg);
+}
+.wrapper .wrapper__block1 .wrapper__images .circle {
+  position: absolute;
+  border-radius: 50%;
+  position: absolute;
+  width: 73.12px;
+  height: 73.12px;
+  left: 52.07px;
+  top: 295px;
+  /* NEW/Black */
+  border: 1.2px solid #383838;
+}
+.wrapper .wrapper__block2 {
+  border: 1px solid black;
+  width: 576px;
+  height: 392px;
 }
