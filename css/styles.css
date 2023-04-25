@@ -688,10 +688,11 @@ body {
   text-align: center;
 }
 .endStep .info p a {
+  cursor: pointer;
   text-decoration: underline;
   margin-left: 5px;
 }
 
-.butForward:active:hover {
-  color: red;
+.butBehind:hover {
+  cursor: pointer;
 }

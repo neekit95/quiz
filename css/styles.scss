@@ -638,7 +638,8 @@ body {
             /* NEW/Gray 3 (text) */
             color: #9B9B9B;
             text-align: center;
-            a {
+            a { 
+                cursor: pointer;
                 text-decoration: underline;
                 margin-left: 5px;
             }
@@ -649,6 +650,9 @@ body {
     
 }
 
-.butForward:active:hover {
-    color:red;
+// .butForward:active:hover {
+//     color:red;
+// }
+.butBehind:hover {
+    cursor: pointer;
 }
