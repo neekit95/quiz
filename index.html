@@ -68,19 +68,84 @@
 
                         <div class="constant__main">
                             <div class="firstStep">
+
                                 <label> <input type="radio" name="radio" value="text">Себе </label>
                                 <label> <input type="radio" name="radio" value="text">Супругу/супруге </label>
                                 <label> <input type="radio" name="radio" value="text">Родственнику </label>
                                 <label> <input type="radio" name="radio" value="text">Коллеге </label>
                                 <label> <input type="radio" name="radio" value="text">Ребенку </label>
-                                <label> <input type="radio" name="radio" value="text">Другое </label>
-<!-- 
-                                <label for=""> <p>Супругу/супруге</p>  <input type="checkbox"></label>
-                                <label for=""> <p>Родственнику</p>  <input type="checkbox"></label>
-                                <label for=""> <p>Коллеге</p>  <input type="checkbox"></label>
-                                <label for=""> <p>Ребенку</p>  <input type="checkbox"></label>
-                                <label for=""> <p>Другое</p>  <input type="checkbox" value="text"></label> -->
+                                <label> <input class="inputclass" type="radio" name="radio" value="text">Другое </label>
                             </div>
+
+                            <div class="secondStep">
+                                <form action="">
+                                    <label for="city">Город</label>
+
+                                    <select name="city" id="city">
+                                        <option value="">Санкт-Петербург</option>
+                                        <option value="">Москва</option>
+                                        <option value="nsk">Новосибирск</option>
+                                        <option value="novgorod">Нижний Новгород</option>
+                                        <option value="rostov">Ростов-на-Дону</option>
+                                    </select>
+                                </form>
+                            </div>
+
+                            <div class="thirdStep">
+
+                                <label> <input type="radio" name="radio" value="text">9 классов </label>
+                                <label> <input type="radio" name="radio" value="text">Колледж/техникум </label>
+                                <label> <input type="radio" name="radio" value="text">11 классов</label>
+                                <label> <input type="radio" name="radio" value="text">Неоконченное высшее</label>
+                                <label> <input type="radio" name="radio" value="text">Училище</label>
+                                <label> <input type="radio" name="radio" value="text">Другое</label>
+                            </div>
+
+                            <div class="fourStep">
+                                <label> <input type="radio" name="radio" value="text">Вуз </label>
+                                <label> <input type="radio" name="radio" value="text"> Колледж/техникум </label>
+                                <label> <input type="radio" name="radio" value="text">Училище</label>
+                            </div>
+
+                            <div class="fiveStep">
+                                <label> <input type="radio" name="radio" value="text">Очную </label>
+                                <label> <input type="radio" name="radio" value="text">Заочную</label>
+                                <label> <input type="radio" name="radio" value="text">Дистанционную </label>
+                            </div>
+
+                            <div class="sixStep">
+                                <label> <input type="radio" name="radio" value="text">Нет, только бюджет </label>
+                                <label> <input type="radio" name="radio" value="text">Да, планирую учиться платно</label>
+                                <label> <input type="radio" name="radio" value="text">Возможны оба варианта</label>
+                            </div>
+
+                            <div class="sevenStep">
+                                <form action="">
+                                    <label for="special">Специальность</label>
+
+                                    <select name="special" id="special">
+                                        <option value="">Любая</option>
+                                        <option value="">Экономика</option>
+                                        <option value="nsk">Философия</option>
+                                        <option value="novgorod">Социология</option>
+                                        <option value="rostov">Юриспруденция</option>
+                                    </select>
+                                </form>
+                            </div>
+                            
+                            <div class="eightStep">
+
+
+
+                                <label> <input type="radio" name="radio" value="text">9 классов </label>
+                                <label> <input type="radio" name="radio" value="text">Колледж/техникум </label>
+                                <label> <input type="radio" name="radio" value="text">11 классов</label>
+                                <label> <input type="radio" name="radio" value="text">Неоконченное высшее</label>
+                                <label> <input type="radio" name="radio" value="text">Училище</label>
+                                <label> <input type="radio" name="radio" value="text">Другое</label>
+
+                            </div>
+                            
 
                         </div>
 
@@ -95,5 +160,7 @@
         </div>
 
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
